@@ -1,0 +1,20 @@
+{
+  "name": "promise-or-abort-controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "node --loader ts-node/esm examples/memo/promise_is_pending.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
